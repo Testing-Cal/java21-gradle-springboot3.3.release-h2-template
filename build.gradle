@@ -47,13 +47,7 @@ dependencies {
     runtimeOnly 'com.h2database:h2'
     annotationProcessor 'org.projectlombok:lombok'
 
-    implementation group: 'io.leangen.graphql', name: 'graphql-spqr-spring-boot-starter', version: '1.0.0'
-    implementation 'com.graphql-java-kickstart:graphql-spring-boot-starter:15.1.0'
-    implementation 'com.graphql-java:graphiql-spring-boot-starter:5.0.2'
-    implementation 'com.graphql-java-kickstart:graphql-java-tools:13.1.1'
-
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
-    testImplementation 'org.springframework.graphql:spring-graphql-test'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.10.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.10.0'
