@@ -184,6 +184,7 @@ test/
 .gradle
 **/build/
 !src/**/build/
+!/build/libs
 
 # Ignore Gradle GUI config
 gradle-app.setting
