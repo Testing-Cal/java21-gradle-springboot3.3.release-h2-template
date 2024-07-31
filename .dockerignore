@@ -184,7 +184,6 @@ test/
 .gradle
 **/build/
 !src/**/build/
-!/build/libs/
 
 # Ignore Gradle GUI config
 gradle-app.setting
@@ -333,4 +332,5 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+!/build/libs/
 
